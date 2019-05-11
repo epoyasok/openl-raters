@@ -1,0 +1,11 @@
+<project>
+  <name>Tutorial 7 - Introduction to Table Properties</name>
+  <comment></comment>
+  <modules>
+    <module>
+      <name>Tutorial7 - Intro to Table Properties</name>
+      <rules-root path="Tutorial7 - Intro to Table Properties.xlsx"/>
+    </module>
+  </modules>
+  <properties-file-name-pattern>AUTO-%state%-%effectiveDate:MMddyyyy%</properties-file-name-pattern>
+</project>
