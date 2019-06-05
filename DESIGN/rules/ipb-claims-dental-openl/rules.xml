@@ -1,0 +1,163 @@
+<project>
+  <name>ipb-claims-dental-openl</name>
+  <comment></comment>
+  <modules>
+    <module>
+      <name>GLIC PPO Calculation Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO Calculation Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Allow Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Allow Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Combine Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Combine Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Deny Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Deny Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Max Covered Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Max Covered Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Pay As Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Pay As Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Review Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Review Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Set to Zero Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Set to Zero Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Substitute Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Substitute Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Zero history Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Zero history Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO Plan Configuration-01012018-01012018</name>
+      <rules-root path="GLIC PPO Plan Configuration-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Rules Model</name>
+      <rules-root path="GLIC Rules Model.xlsx"/>
+    </module>
+    <module>
+      <name>claims-dental-auto-adjudication</name>
+      <rules-root path="claims-dental-auto-adjudication.xlsx"/>
+    </module>
+    <module>
+      <name>claims-dental-lookup</name>
+      <rules-root path="claims-dental-lookup.xlsx"/>
+    </module>
+    <module>
+      <name>claims-dental-tooth-area-validation</name>
+      <rules-root path="claims-dental-tooth-area-validation.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO_ACA DHMO Rules Tests</name>
+      <rules-root path="GLIC PPO_ACA DHMO Rules Tests.xlsx"/>
+    </module>
+    <module>
+      <name>Main</name>
+      <rules-root path="Main.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO_ACA DHMO DRL Rules Aggregation Algorithm-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO_ACA DHMO DRL Rules Aggregation Algorithm-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO Calculation Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO Calculation Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Allow Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Allow Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Combine Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Combine Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Deny Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Deny Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Review Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Review Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Set to Zero Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Set to Zero Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Substitute Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Substitute Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Zero history Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Zero history Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC DHMO Plan Configuration-01012018-01012018</name>
+      <rules-root path="GLIC DHMO Plan Configuration-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Eligibility Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC Eligibility Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Rules Lookups-CW-01012018-01012018</name>
+      <rules-root path="GLIC Rules Lookups-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO DRL Frequency Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO DRL Frequency Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC ACA DHMO DRL Frequency Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC ACA DHMO DRL Frequency Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO Next Eligible Visit Rules-CW-01012018-01012018</name>
+      <rules-root path="GLIC PPO Next Eligible Visit Rules-CW-01012018-01012018.xlsx"/>
+    </module>
+    <module>
+      <name>Main_Next Eligible Visit</name>
+      <rules-root path="Main_Next Eligible Visit.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Next Eligible Visit Rules Model</name>
+      <rules-root path="GLIC Next Eligible Visit Rules Model.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO Next Eligible Visit Rules Tests</name>
+      <rules-root path="GLIC PPO Next Eligible Visit Rules Tests.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Interest Table-CW-09032018-09032018</name>
+      <rules-root path="GLIC Interest Table-CW-09032018-09032018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC Interest_General Rules-CW-09032018-09032018</name>
+      <rules-root path="GLIC Interest_General Rules-CW-09032018-09032018.xlsx"/>
+    </module>
+    <module>
+      <name>GLIC PPO_DHMO Interest Calculation-CW-09032018-09032018</name>
+      <rules-root path="GLIC PPO_DHMO Interest Calculation-CW-09032018-09032018.xlsx"/>
+    </module>
+  </modules>
+  <classpath>
+    <entry path="lib/*.jar"/>
+  </classpath>
+  <properties-file-name-pattern>.*-%state%-%effectiveDate:MMddyyyy%-%startRequestDate:MMddyyyy%</properties-file-name-pattern>
+  <properties-file-name-processor>org.openl.rules.project.resolving.CWPropertyFileNameProcessor</properties-file-name-processor>
+</project>
