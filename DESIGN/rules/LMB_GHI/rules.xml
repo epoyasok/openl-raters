@@ -1,0 +1,24 @@
+<project>
+  <name>LMB_GHI</name>
+  <comment></comment>
+  <modules>
+    <module>
+      <name>LMB GHI Lookup Tables-CW-01012016-01012016</name>
+      <rules-root path="LMB GHI Lookup Tables-CW-01012016-01012016.xlsx"/>
+    </module>
+    <module>
+      <name>LMB GHI Rating Algorithm-CW-01012016-01012016</name>
+      <rules-root path="LMB GHI Rating Algorithm-CW-01012016-01012016.xlsx"/>
+    </module>
+    <module>
+      <name>LMB GHI Rating Model</name>
+      <rules-root path="LMB GHI Rating Model.xlsx"/>
+    </module>
+    <module>
+      <name>LMB GHI Tests</name>
+      <rules-root path="LMB GHI Tests.xlsx"/>
+    </module>
+  </modules>
+  <properties-file-name-pattern>.*-%state%-%effectiveDate:MMddyyyy%-%startRequestDate:MMddyyyy%</properties-file-name-pattern>
+  <properties-file-name-processor>org.openl.rules.project.resolving.CWPropertyFileNameProcessor</properties-file-name-processor>
+</project>
