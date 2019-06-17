@@ -1,0 +1,18 @@
+<project>
+  <name>acins-sha-home-rating</name>
+  <modules>
+    <module>
+      <name>ACE_SHA_HOME_DATATYPES</name>
+      <rules-root path="rules/datatypes.xls"/>
+    </module>
+    <module>
+      <name>ACE_SHA_HOME</name>
+      <rules-root path="rules/HOME-SHA-BR-*.xls"/>
+    </module>
+  </modules>
+  <classpath>
+    <entry path="."/>
+    <entry path="target/classes"/>
+    <entry path="lib"/>
+  </classpath>
+</project>

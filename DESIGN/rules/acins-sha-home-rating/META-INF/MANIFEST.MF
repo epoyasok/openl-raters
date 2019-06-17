@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: AIonov
+Build-Jdk: 1.6.0_32
+Build-Date: 20130603-1816
+Build-Number: 
+Build-SCM-Revision: 
+Implementation-Title: com.exigen.acins.rating:acins-sha-home-rating
+Implementation-Vendor: Exigen Services, Ltd
+Implementation-Version: 1.11.0-SHA-SNAPSHOT
+
