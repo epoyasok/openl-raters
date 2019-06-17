@@ -1,16 +1,12 @@
 <rules-deploy>
-  <isProvideRuntimeContext>false</isProvideRuntimeContext>
-  <isProvideVariations>false</isProvideVariations>
-  <useRuleServiceRuntimeContext>false</useRuleServiceRuntimeContext>
-  <serviceName>glic</serviceName>
-  <publishers>
-    <publisher>RESTFUL</publisher>
-  </publishers>
-  <interceptingTemplateClassName></interceptingTemplateClassName>
-  <annotationTemplateClassName></annotationTemplateClassName>
-  <serviceClass></serviceClass>
-  <rmiServiceClass></rmiServiceClass>
-  <url>dental</url>
-  <version></version>
-  <groups></groups>
+    <isProvideRuntimeContext>false</isProvideRuntimeContext>
+    <isProvideVariations>false</isProvideVariations>
+    <serviceName>claims-dental-openl-rules</serviceName>
+    <publishers>
+        <publisher>RESTFUL</publisher>
+        <publisher>WEBSERVICE</publisher>
+    </publishers>
+    <serviceClass></serviceClass>
+    <url>claims-dental-openl-rules</url>
+    <version></version>
 </rules-deploy>
