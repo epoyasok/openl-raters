@@ -1,0 +1,48 @@
+<project>
+  <name>Tower Motor Rater</name>
+  <modules>
+    <module>
+      <name>CRV-rules-01012017-01012017</name>
+      <rules-root path="CRV-rules-01012017-01012017.xlsx"/>
+    </module>
+    <module>
+      <name>CRV-tests</name>
+      <rules-root path="CRV-tests.xlsx"/>
+    </module>
+    <module>
+      <name>MTH-rules-01012017-01012017</name>
+      <rules-root path="MTH-rules-01012017-01012017.xlsx"/>
+    </module>
+    <module>
+      <name>MTH-tests</name>
+      <rules-root path="MTH-tests.xlsx"/>
+    </module>
+    <module>
+      <name>PMT,CMT,MTB-rules-01012017-01012017</name>
+      <rules-root path="PMT,CMT,MTB-rules-01012017-01012017.xlsx"/>
+      <method-filter>
+        <includes>
+          <value>.+ VariatePolicyPremiums\(.+\)</value>
+          <value>.+ DeterminePolicyPremiums\(.+\)</value>
+        </includes>
+      </method-filter>
+    </module>
+    <module>
+      <name>PMT,CMT,MTB-tests</name>
+      <rules-root path="PMT,CMT,MTB-tests.xlsx"/>
+    </module>
+    <module>
+      <name>STR-rules-01012017-01012017</name>
+      <rules-root path="STR-rules-01012017-01012017.xlsx"/>
+    </module>
+    <module>
+      <name>STR-tests</name>
+      <rules-root path="STR-tests.xlsx"/>
+    </module>
+    <module>
+      <name>model</name>
+      <rules-root path="model.xlsx"/>
+    </module>
+  </modules>
+  <properties-file-name-pattern>%lob%-rules-%effectiveDate:ddMMyyyy%-%startRequestDate:ddMMyyyy%</properties-file-name-pattern>
+</project>
