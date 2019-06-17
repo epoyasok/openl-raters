@@ -1,0 +1,23 @@
+<project>
+  <name>acins-sha-home-tests</name>
+  <comment></comment>
+  <modules>
+    <module>
+      <name>sha-home-test-datatypes</name>
+      <rules-root path="home-test-datatypes.xls"/>
+    </module>
+    <module>
+      <name>home_SHA_test_database_v0</name>
+      <rules-root path="home_SHA_test_database_v0_openl.xlsx"/>
+    </module>
+  </modules>
+  <classpath>
+    <entry path="../acins-sha-home-rating-1.11.0-SHA-SNAPSHOT"/>
+  </classpath>
+  <dependencies>
+    <dependency>
+      <name>acins-sha-home-rating</name>
+      <autoIncluded>true</autoIncluded>
+    </dependency>
+  </dependencies>
+</project>
