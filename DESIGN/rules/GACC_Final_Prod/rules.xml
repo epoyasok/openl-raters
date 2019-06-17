@@ -1,0 +1,24 @@
+<project>
+  <name>GACC_Final_Prod</name>
+  <comment></comment>
+  <modules>
+    <module>
+      <name>GACC_Algorithm-CW-01012019-01012019</name>
+      <rules-root path="GACC_Algorithm-CW-01012019-01012019.xlsx"/>
+    </module>
+    <module>
+      <name>GACC_Lookup_Tables-CW-01012019-01012019</name>
+      <rules-root path="GACC_Lookup_Tables-CW-01012019-01012019.xlsx"/>
+    </module>
+    <module>
+      <name>GACC_Rating_Model</name>
+      <rules-root path="GACC_Rating_Model.xlsx"/>
+    </module>
+    <module>
+      <name>GACC_Tests</name>
+      <rules-root path="GACC_Tests.xlsx"/>
+    </module>
+  </modules>
+  <properties-file-name-pattern>.*-%state%-%effectiveDate:MMddyyyy%-%startRequestDate:MMddyyyy%</properties-file-name-pattern>
+  <properties-file-name-processor>org.openl.rules.project.resolving.CWPropertyFileNameProcessor</properties-file-name-processor>
+</project>
