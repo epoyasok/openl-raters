@@ -1,0 +1,18 @@
+<rules-deploy>
+    <isProvideRuntimeContext>true</isProvideRuntimeContext>
+    <isProvideVariations>false</isProvideVariations>
+    <serviceName>glic-ci-rating-rules</serviceName>
+
+    <annotationTemplateClassName>com.glic.rating.ci.RatingService</annotationTemplateClassName>
+
+    <url>com.glic.rating.ci.RatingService</url>
+    <configuration>
+        <entry>
+            <string>rootClassNamesBinding</string>
+            <string>com.glic.rating.result.model.GlicSimpleStep</string>
+        </entry>
+    </configuration>
+    <publishers>
+        <publisher>RESTFUL</publisher>
+    </publishers>
+</rules-deploy>
