@@ -4,18 +4,22 @@
   <modules>
     <module>
       <name>LMB GHI Lookup Tables-CW-01012016-01012016</name>
+      <classname>LMB GHI Lookup Tables-CW-01012016-01012016</classname>
       <rules-root path="LMB GHI Lookup Tables-CW-01012016-01012016.xlsx"/>
     </module>
     <module>
       <name>LMB GHI Rating Algorithm-CW-01012016-01012016</name>
+      <classname>LMB GHI Rating Algorithm-CW-01012016-01012016</classname>
       <rules-root path="LMB GHI Rating Algorithm-CW-01012016-01012016.xlsx"/>
     </module>
     <module>
       <name>LMB GHI Rating Model</name>
+      <classname>LMB GHI Rating Model</classname>
       <rules-root path="LMB GHI Rating Model.xlsx"/>
     </module>
     <module>
       <name>LMB GHI Tests</name>
+      <classname>LMB GHI Tests</classname>
       <rules-root path="LMB GHI Tests.xlsx"/>
     </module>
   </modules>
